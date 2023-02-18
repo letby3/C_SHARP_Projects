@@ -14,8 +14,11 @@ namespace PTMK_TestProblem_18February.Models
 
         public UsersDbContext() => Database.EnsureCreated();
 
+
+
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
+            
             optionsBuilder.UseSqlite("Data Source=UsersDB.db");
             
         }

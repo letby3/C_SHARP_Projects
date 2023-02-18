@@ -2,7 +2,7 @@
   "profiles": {
     "PTMK_TestProblem_18February": {
       "commandName": "Project",
-      "commandLineArgs": "rngireopger"
+      "commandLineArgs": "6"
     }
   }
 }
